@@ -1,10 +1,10 @@
-function somaa(a) {
+function soma(a) {
     return function(b){
         return a+b;
     }
 }
 
-const somaa2 = somaa(2);
+const soma2 = soma(2);
 
 console.log(soma2(2));
 console.log(soma2(3));
