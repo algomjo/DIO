@@ -30,3 +30,4 @@ console.log("User keys: ",Object.keys(user));
 Object.assign(user, {fullName: 'Alexandre Gomes'});
 console.log("User assign 1: ",user);
 console.log("User assign 2: ",Object.assign({},user, {age: 26}));
+console.log(typeof user);
