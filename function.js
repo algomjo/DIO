@@ -31,3 +31,24 @@ const obj = {
 }
 
 console.log(obj);
+
+const arr = [1, 2 , 3];
+const arr2 = [...arr];
+console.log(...arr);
+
+// Generators
+function* hello(){
+    console.log('Hello');
+    yield 1;
+
+    console.log('From');
+    yield 2;
+
+    console.log('Function');
+    yield 'End';
+}
+
+const it = hello();
+console.log(it.next());
+console.log(it.next());
+console.log(it.next());
