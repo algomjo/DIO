@@ -78,3 +78,11 @@ doSomethingPromise()
 .then(data2 => console.log(data2.split('')))
 .catch(error => console.log('Ops', error));
 
+
+Promise.all([doSomethingPromise(), doOtherThingPromise()]).then(data =>{
+    console.log(data[0].split(''));
+    console.log(data[1].split(''));
+}).catch(err =>{
+    console.log(err);
+})
+

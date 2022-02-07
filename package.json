@@ -1,0 +1,23 @@
+{
+  "name": "dio",
+  "version": "1.0.0",
+  "description": "[GITHUB](https://github.com/algomjo/DIO)",
+  "main": "currrying.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algomjo/DIO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algomjo/DIO/issues"
+  },
+  "homepage": "https://github.com/algomjo/DIO#readme",
+  "devDependencies": {
+    "mocha": "^9.2.0"
+  }
+}
